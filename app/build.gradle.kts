@@ -65,6 +65,7 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation("com.github.Jbaruz:ARMeasure:v1.0.0") // Replace v1.0.0 with your actual tag or commit hash
 
     // ARCore and Sceneform dependencies from JitPack
     implementation("com.github.SceneView:core:1.19.1")
